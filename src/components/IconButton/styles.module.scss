@@ -1,0 +1,28 @@
+@import '../../assets/styles/variables';
+
+.iconButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+
+  border-radius: 50%;
+  border: solid 1px $icons;
+
+  background-color: $white;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  cursor: pointer;
+  transition: border-color $effectDuration;
+
+  &:hover {
+    border-color: $primary;
+  }
+}
+
+.arrow-top {
+  background-image: url(/src/assets/images/icons/arrow-top.svg);
+}

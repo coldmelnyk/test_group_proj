@@ -1,0 +1,17 @@
+@import '/src/assets/styles/mixins';
+
+.container {
+  padding-inline: 16px;
+  // position was added to fix burger menu above the whole page
+  position: relative;
+
+  @include onTablet {
+    padding-inline: 24px;
+  }
+
+  @include onDesktop {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-inline: 32px;
+  }
+}
