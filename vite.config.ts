@@ -6,7 +6,7 @@ import { defineConfig } from 'vite';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/group_project/',
+  base: '/test_group_proj/',
   server: {
     port: 3000,
     open: true,
